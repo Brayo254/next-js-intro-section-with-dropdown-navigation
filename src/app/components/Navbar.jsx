@@ -28,7 +28,7 @@ const Navbar = ({
               </button>
             </h5>
             {isFeaturesOpen && (
-              <div className="px-2 py-2 flex flex-col bg-yellow-300 w-30 rounded items-center shadow-md absolute left-10 mt-5">
+              <div className="px-2 py-2 flex flex-col bg-primary1 w-30 rounded items-center shadow-md absolute left-10 mt-5">
                 <div className="items-center gap-2 inline-flex mb-1">
                   <Image
                     src="./icon-todo.svg"
@@ -76,7 +76,7 @@ const Navbar = ({
               </button>
             </p>
             {isCompanyOpen && (
-              <div className="px-2 py-2 flex flex-col bg-yellow-300 w-20 rounded items-center shadow-md mt-7 absolute right-4">
+              <div className="px-2 py-2 flex flex-col bg-primary1 w-20 rounded items-center shadow-md mt-7 absolute right-4">
                 <Link href="#">History</Link>
                 <Link href="#">Team</Link>
                 <Link href="#">Blog</Link>
